@@ -6,6 +6,7 @@
 //
 
 final class DataManager {
+    
     static var listOfNames = [
         "Jiorno",
         "Bruno",
@@ -46,6 +47,7 @@ final class DataManager {
         "megaPlane1337@air.by",
         "crepish52@dino.info",
         "bazukamagistra@djedays.com",
-        "general_rediska@desant.ru"
+        "general_rediska@desant.ru",
+        "kozlikVtumane@farm.pl"
     ]
 }
