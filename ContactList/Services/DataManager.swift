@@ -25,7 +25,7 @@ final class DataManager {
         "Just",
         "Mackki",
         "Jambo",
-        "Showel"
+        "Towel"
     ]
     
     static var phoneNumber = [
