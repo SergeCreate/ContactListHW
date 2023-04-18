@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ContactDetail: UIViewController {
+class ContactDetailViewController: UIViewController {
     
     @IBOutlet var teleponeNubmerLabel: UILabel!
     @IBOutlet var emalLabel: UILabel!

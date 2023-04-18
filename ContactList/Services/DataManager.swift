@@ -6,8 +6,7 @@
 //
 
 final class DataManager {
-    
-    static var listOfNames = [
+        static var listOfNames = [
         "Jiorno",
         "Bruno",
         "Leone",

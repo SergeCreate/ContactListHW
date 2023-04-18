@@ -27,7 +27,7 @@ class ContactListViewController: UITableViewController {
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        guard let detailContactVC = segue.destination as? ContactDetail else { return }
+        guard let detailContactVC = segue.destination as? ContactDetailViewController else { return }
         guard let indexPath = tableView.indexPathForSelectedRow else { return }
         detailContactVC.contactDetail = contactList[indexPath.row]
     }
