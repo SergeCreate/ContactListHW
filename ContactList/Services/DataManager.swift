@@ -7,25 +7,25 @@
 
 final class DataManager {
         static var name = [
-        "Jiorno",
-        "Bruno",
-        "Leone",
-        "Gvido",
-        "Narancha",
-        "Panakotta",
+        "Erick",
+        "Kenny",
+        "Kayl",
+        "Stan",
+        "Cheef",
+        "Mr",
         "Co-co",
-        "Diabbolo"
+        "The"
     ]
     
     static var surname = [
-        "Jiovanna",
-        "Buchelatti",
-        "Abakkio",
-        "Mista",
-        "Fugo",
-        "Girga",
+        "Cartman",
+        "Mackormik",
+        "Braflovski",
+        "Marsh",
+        "Just",
+        "Mackki",
         "Jambo",
-        "Chokolatta"
+        "Showel"
     ]
     
     static var phoneNumber = [
