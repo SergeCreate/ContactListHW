@@ -11,7 +11,7 @@ final class DataManager {
         "Kenny",
         "Kayl",
         "Stan",
-        "Cheef",
+        "Just",
         "Mr",
         "Co-co",
         "The"
@@ -22,7 +22,7 @@ final class DataManager {
         "Mackormik",
         "Braflovski",
         "Marsh",
-        "Just",
+        "Cheef",
         "Mackki",
         "Jambo",
         "Towel"
