@@ -7,10 +7,10 @@
 
 import UIKit
 
-class ContactDetailViewController: UIViewController {
+final class ContactDetailViewController: UIViewController {
     
-    @IBOutlet var teleponeNubmerLabel: UILabel!
-    @IBOutlet var emalLabel: UILabel!
+    @IBOutlet var phoneNumberLabel: UILabel!
+    @IBOutlet var emailLabel: UILabel!
     
     var contactDetail: Person!
     
@@ -19,7 +19,7 @@ class ContactDetailViewController: UIViewController {
         
         navigationItem.title = contactDetail.fullName
         
-        teleponeNubmerLabel.text = "Phone number: \(contactDetail.telephoneNumber)"
-        emalLabel.text = "Email: \(contactDetail.email)"
+        phoneNumberLabel.text = "Phone number: \(contactDetail.phoneNumber)"
+        emailLabel.text = "Email: \(contactDetail.email)"
     }
 }

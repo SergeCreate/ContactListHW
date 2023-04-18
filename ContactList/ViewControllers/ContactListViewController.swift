@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ContactListViewController: UITableViewController {
+final class ContactListViewController: UITableViewController {
     
     var contactList = Person.toGetPerson()
     

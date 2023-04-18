@@ -101,8 +101,8 @@
                     </view>
                     <navigationItem key="navigationItem" id="oqO-v8-U77"/>
                     <connections>
-                        <outlet property="emalLabel" destination="Ybn-n3-en2" id="8Xu-Ce-bnL"/>
-                        <outlet property="teleponeNubmerLabel" destination="FXd-We-wQg" id="5lJ-Ln-do0"/>
+                        <outlet property="emailLabel" destination="Ybn-n3-en2" id="8Xu-Ce-bnL"/>
+                        <outlet property="phoneNumberLabel" destination="FXd-We-wQg" id="5lJ-Ln-do0"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

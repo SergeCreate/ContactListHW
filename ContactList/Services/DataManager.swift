@@ -6,7 +6,7 @@
 //
 
 final class DataManager {
-        static var listOfNames = [
+        static var name = [
         "Jiorno",
         "Bruno",
         "Leone",
@@ -17,7 +17,7 @@ final class DataManager {
         "Diabbolo"
     ]
     
-    static var listOfSurnames = [
+    static var surname = [
         "Jiovanna",
         "Buchelatti",
         "Abakkio",
@@ -28,7 +28,7 @@ final class DataManager {
         "Chokolatta"
     ]
     
-    static var telephoneNumbers = [
+    static var phoneNumber = [
         "+79934582902",
         "+34821412123",
         "+22814881337",
@@ -39,7 +39,7 @@ final class DataManager {
         "+76666666666"
     ]
     
-    static var listOfEmails = [
+    static var email = [
         "sweetDoggy@miami.com",
         "_arnold_2003@organizationmatrix.ru",
         "BaBkAvKeDaX@dog.ru",
