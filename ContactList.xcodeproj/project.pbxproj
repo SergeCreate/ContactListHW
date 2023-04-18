@@ -14,7 +14,7 @@
 		4BD0198F29EF212D00849DF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BD0198E29EF212D00849DF0 /* Assets.xcassets */; };
 		4BD0199229EF212D00849DF0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BD0199029EF212D00849DF0 /* LaunchScreen.storyboard */; };
 		4BD0199F29EF234A00849DF0 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD0199E29EF234A00849DF0 /* Person.swift */; };
-		4BD019A129EF23E800849DF0 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD019A029EF23E800849DF0 /* DataManager.swift */; };
+		4BD019A129EF23E800849DF0 /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD019A029EF23E800849DF0 /* DataStore.swift */; };
 		4BD019A329EF31B500849DF0 /* ContactDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD019A229EF31B500849DF0 /* ContactDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -28,7 +28,7 @@
 		4BD0199129EF212D00849DF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4BD0199329EF212D00849DF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4BD0199E29EF234A00849DF0 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
-		4BD019A029EF23E800849DF0 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		4BD019A029EF23E800849DF0 /* DataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
 		4BD019A229EF31B500849DF0 /* ContactDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -111,7 +111,7 @@
 		4BD0199D29EF22DA00849DF0 /* Services */ = {
 			isa = PBXGroup;
 			children = (
-				4BD019A029EF23E800849DF0 /* DataManager.swift */,
+				4BD019A029EF23E800849DF0 /* DataStore.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -188,7 +188,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4BD0198A29EF212D00849DF0 /* ContactListViewController.swift in Sources */,
-				4BD019A129EF23E800849DF0 /* DataManager.swift in Sources */,
+				4BD019A129EF23E800849DF0 /* DataStore.swift in Sources */,
 				4BD0198629EF212D00849DF0 /* AppDelegate.swift in Sources */,
 				4BD0199F29EF234A00849DF0 /* Person.swift in Sources */,
 				4BD0198829EF212D00849DF0 /* SceneDelegate.swift in Sources */,

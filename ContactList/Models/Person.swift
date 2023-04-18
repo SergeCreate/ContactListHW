@@ -16,10 +16,10 @@ struct Person {
     
     static func toGetPerson() -> [Person] {
         var personList: [Person] = []
-        let shuffledName = DataManager.name.shuffled()
-        let shuffledSurname = DataManager.surname.shuffled()
-        let shuffledNumber = DataManager.phoneNumber.shuffled()
-        let shuffledEmail = DataManager.email.shuffled()
+        let shuffledName = DataStore.name.shuffled()
+        let shuffledSurname = DataStore.surname.shuffled()
+        let shuffledNumber = DataStore.phoneNumber.shuffled()
+        let shuffledEmail = DataStore.email.shuffled()
         
         for item in 0...shuffledName.count - 1 {
             personList.append(Person(

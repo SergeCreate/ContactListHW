@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  ContactListViewController.swift
 //  ContactList
 //
 //  Created by Сергей Захаров on 18.04.2023.
