@@ -9,7 +9,13 @@ import UIKit
 
 final class ContactListViewController: UITableViewController {
     
-    var contactList = Person.toGetPerson()
+    private let dataStore = DataStore()
+    private var contactList: [Person] = []
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        contactList = Person.toGetPerson(from: dataStore)
+    }
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         contactList.count

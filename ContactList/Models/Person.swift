@@ -9,23 +9,25 @@
 struct Person {
     let name: String
     let surname: String
-    let fullName: String
     let phoneNumber: String
     let email: String
     
+    var fullName: String {
+        "\(name) \(surname)"
+    }
     
-    static func toGetPerson() -> [Person] {
+    
+    static func toGetPerson(from dataStore: DataStore) -> [Person] {
         var personList: [Person] = []
-        let shuffledName = DataStore.name.shuffled()
-        let shuffledSurname = DataStore.surname.shuffled()
-        let shuffledNumber = DataStore.phoneNumber.shuffled()
-        let shuffledEmail = DataStore.email.shuffled()
+        let shuffledName = dataStore.name.shuffled()
+        let shuffledSurname = dataStore.surname.shuffled()
+        let shuffledNumber = dataStore.phoneNumber.shuffled()
+        let shuffledEmail = dataStore.email.shuffled()
         
-        for item in 0...shuffledName.count - 1 {
+        for item in 0..<shuffledName.count {
             personList.append(Person(
                 name: shuffledName[item],
                 surname: shuffledSurname[item],
-                fullName: "\(shuffledName[item]) \(shuffledSurname[item])",
                 phoneNumber: shuffledNumber[item],
                 email: shuffledEmail[item]
             )

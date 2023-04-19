@@ -6,7 +6,7 @@
 //
 
 final class DataStore {
-        static var name = [
+    let name = [
         "Erick",
         "Kenny",
         "Kayl",
@@ -17,7 +17,7 @@ final class DataStore {
         "The"
     ]
     
-    static var surname = [
+    let surname = [
         "Cartman",
         "Mackormik",
         "Braflovski",
@@ -28,7 +28,7 @@ final class DataStore {
         "Towel"
     ]
     
-    static var phoneNumber = [
+    let phoneNumber = [
         "+79934582902",
         "+34821412123",
         "+22814881337",
@@ -39,7 +39,7 @@ final class DataStore {
         "+76666666666"
     ]
     
-    static var email = [
+    let email = [
         "sweetDoggy@miami.com",
         "_arnold_2003@organizationmatrix.ru",
         "BaBkAvKeDaX@dog.ru",
