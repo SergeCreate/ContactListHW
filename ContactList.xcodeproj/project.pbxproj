@@ -43,6 +43,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4B4237D029EFE92900CDDD19 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4BD0198E29EF212D00849DF0 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		4BD0197929EF212D00849DF0 = {
 			isa = PBXGroup;
 			children = (
@@ -62,12 +70,12 @@
 		4BD0198429EF212D00849DF0 /* ContactList */ = {
 			isa = PBXGroup;
 			children = (
+				4B4237D029EFE92900CDDD19 /* Resources */,
 				4BD0199D29EF22DA00849DF0 /* Services */,
 				4BD0199C29EF22C100849DF0 /* Models */,
 				4BD0199B29EF22B300849DF0 /* Storyboards */,
 				4BD0199A29EF220600849DF0 /* App */,
 				4BD0199929EF21D500849DF0 /* ViewControllers */,
-				4BD0198E29EF212D00849DF0 /* Assets.xcassets */,
 			);
 			path = ContactList;
 			sourceTree = "<group>";
